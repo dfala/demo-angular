@@ -5,6 +5,7 @@
     <title>Gifs Chat</title>
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.js" charset="utf-8"></script>
     <script src="https://cdn.rawgit.com/alertifyjs/alertify.js/v1.0.6/dist/js/alertify.js"></script>
     <script src="https://cdn.firebase.com/js/client/2.4.1/firebase.js"></script>
 
@@ -16,21 +17,13 @@
       <div class="l-left-box">
         <div>GIFS</div>
       </div>
-      <div class="l-right-box">
-        <div>Home</div>
-        <div>Card</div>
-      </div>
     </header>
 
-    <div class="l-container">
-
-
-
-
-    </div>
+    <ui-view></ui-view>
 
     <script src="js/app.js" charset="utf-8"></script>
     <script src="js/controller.js" charset="utf-8"></script>
     <script src="js/service.js" charset="utf-8"></script>
+    <script src="js/dataStore.js" charset="utf-8"></script>
   </body>
 </html>

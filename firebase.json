@@ -1,0 +1,9 @@
+{
+  "firebase": "recipes-book",
+  "public": "public",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
